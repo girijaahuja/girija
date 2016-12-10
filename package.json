@@ -1,5 +1,5 @@
 {
-  "name": "react-fundamentals-curriculum",
+  "name": "reactapp",
   "version": "1.0.0",
   "description": "Curriculum for React.js Program's React Fundamentals course.",
   "main": "index.js",
@@ -21,9 +21,19 @@
     "reactapp"
   ],
   "dependencies": {
-    "react": "^15.4.1",
-    "react-dom": "^15.4.1",
+    "axios": "^0.9.1",
+    "react": "^0.14.8",
+    "react-dom": "^0.14.8",
+    "react-router": "^2.0.0",
     "webpack": "^1.14.0",
     "webpack-dev-server": "^1.16.2"
+  },
+  "devDependencies": {
+    "babel-core": "^6.5.2",
+    "babel-loader": "^6.2.4",
+    "babel-preset-react": "^6.5.0",
+    "html-webpack-plugin": "^2.9.0",
+    "webpack": "^1.12.14",
+    "webpack-dev-server": "^1.14.1"
   }
 }
